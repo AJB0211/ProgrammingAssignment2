@@ -4,6 +4,8 @@
 ## Quick search says this is how you do classes in R
 ## this is atrocious, I hate R now
 
+## Subsitute for a matrix class
+## with an inverse member and it's associated accessor functions
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
   
@@ -23,7 +25,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## Substitute for an accessor method for an inverse member
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
